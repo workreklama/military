@@ -3,6 +3,7 @@ body,
   box-sizing: border-box;
   margin: 0;
   font-family: 'Inter', sans-serif;
+  font-weight: 500;
 }
 
 .br12 {
@@ -44,6 +45,14 @@ main {
 
 .bgw {
   background-color: #FFFFFF;
+}
+
+.grey {
+  color: #525866;
+}
+
+.fs {
+  font-size: 14px;
 }
 
 /* style .menu */
@@ -115,7 +124,7 @@ li:nth-child(3)::before {
   margin-left: 32px;
 }
 
-h3 {
+.block1 h3, .block2 h3 {
   font-size: 20px;
   margin-bottom: 8px;
 }
@@ -159,10 +168,9 @@ h3 {
 }
 
 button {
-  padding: 8px 12px;
+  padding: 8px 10px;
   border: none;
   border-radius: 8px;
-  font-size: 14px;
   background-color: #F6F8FA;
   color: #525866;
 }
@@ -282,7 +290,7 @@ button.blu {
   height: 32px;
   background-color: #EBF1FF;
   position: relative;
-  padding-left: 32px;
+  padding-left: 30px;
 }
 
 .block3_left_top>button::before {
@@ -461,6 +469,7 @@ button.blu {
 
 table {
   width: 100%;
+  line-height: 22px;
 }
 
 th {
@@ -500,8 +509,12 @@ td.pdl {
   padding-left: 12px;
 }
 
-table ol {
+.pdl40 {
   padding-left: 40px;
+}
+
+.pdl120 {
+  padding-left: 120px;
 }
 
 /* bock5 */
@@ -523,6 +536,10 @@ table ol {
   top: 19px;
   left: 32px;
   background-image: url(img/check-list.svg);
+}
+
+.block5 h4 {
+  margin-bottom: 4px;
 }
 
 .block5>.flx {
@@ -578,6 +595,7 @@ table ol {
 .groupmates {
   display: flex;
   gap: 24px;
+  margin-top: 24px;
 }
 
 .groupmates__left,
@@ -606,7 +624,7 @@ table ol {
   height: 20px;
   top: 22px;
   left: 28px;
-  background-image: url(img/users.png);
+  background-image: url(img/user-group.svg);
 }
 
 .groupmates__line {
@@ -625,7 +643,7 @@ table ol {
 .groupmates__item {
   display: flex;
   gap: 12px;
-  padding: 16px 0;
+  padding: 24px 0 16px 0;
   border-bottom: 1px solid #e2e4e9;
 }
 
@@ -668,6 +686,7 @@ table ol {
   background: #f6f8fa;
   padding: 8px 12px;
   border: none;
+  font-size: 14px;
 }
 
 .groupmate__shadow {
@@ -698,6 +717,7 @@ table ol {
 
 .groupmates__right img {
   max-width: 302px;
+  height: 56px;
 }
 
 .groupmates__comment {
@@ -708,6 +728,7 @@ table ol {
 
 .groupmates__comment p {
   font-size: 14px;
+  line-height: 20px;
 }
 
 .groupmates__btns {
@@ -721,6 +742,7 @@ table ol {
   padding: 14px;
   border-radius: 8px;
   border: none;
+  font-size: 14px;
 }
 
 .groupmates__btn--left {
